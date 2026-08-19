@@ -22,11 +22,15 @@ header{
 
 header > h1 {
   border: 1px dotted black;
+
+  display: flex;
 }
 
 header > nav {
   border: 1px dotted black;
   margin: 10px;
+
+  display: flex;
 }
 
 header > nav > a{
