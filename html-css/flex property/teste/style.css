@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+body{
+
+  .conteiner{
+    background-color: bisque;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .item{
+    background-color: #f0ffff;
+    border: 1px dotted #ff0000;
+    text-align: center;
+  }
+
+  div#cxA{
+    flex: 0 1 200px;
+  }
+
+  div#cxB{
+    flex: 2 1 200px;
+  }
+
+  div#cxC{
+    flex: 0 1 200px;
+  }
+
+    }
