@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+header, section.normal{
+  padding: 20px;
+}
+
+p, h1, h2 {
+  margin-bottom: 10px;
+}
+
+section.flex-content{
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px;
+  background-color: aliceblue;
+
+}
+
+article.media-text{
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+}
+
+article.text-media{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.text{
+  flex-basis: 500px;
+}
+
+div.media{
+  margin: auto;
+}
+
